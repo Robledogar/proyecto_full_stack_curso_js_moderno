@@ -1,0 +1,11 @@
+{
+  "name": "apv-backend",
+  "version": "1.0.0",
+  "description": "Aprendiendo Js fullstack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Jose Luís Robledo",
+  "license": "ISC"
+}
