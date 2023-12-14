@@ -1,15 +1,20 @@
 {
   "name": "apv-backend",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "description": "Aprendiendo Js fullstack",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Jose Luís Robledo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
