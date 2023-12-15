@@ -3,7 +3,7 @@ import moongoose from 'mongoose'
 const conectarBD = async() => {
     try {
         const db = await moongoose.connect(
-        "mongodb+srv://root:root@cluster0.m0v52al.mongodb.net/?retryWrites=true&w=majority", 
+            process.env.MONGO_URI, 
         {
             useNewUrlParser: true,
             useUnifiedTopology: true
